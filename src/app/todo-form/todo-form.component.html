@@ -1,0 +1,6 @@
+<div>
+  <label for="mc">Quel todo est à rajouter? </label>
+  <input type="text" name="tc" id="tc" [(ngModel)]="newTodo.title">
+  <input type="checkbox" name="mc" id="mc" [(ngModel)]="newTodo.isDone">
+  <button (click)="handleClick()">Ajouter</button>
+</div>
